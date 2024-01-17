@@ -293,7 +293,7 @@ def login_lagi334():
 		asu = random.choice([m,k,h,b,u])
 		os.system('clear')
 		print("\033[1;97m------(\033[1;91mNone\033[1;97m)------")
-		cookie=input(f'  [{h}•{x}]Enter Cookies :{asu} ')
+		cookie= "datr=JfWmZe5LL2jILioMIUy9E5Pd; sb=JfWmZa22QJL5UqT8qnPPYoQT; m_pixel_ratio=2.75; wd=377x567; fr=00V7bBItu54C40SGg.AWWyj7xuhYAj5o8hRwZZzY8sjmM.BlpvUl.aW.AAA.0.0.Blp-xe.AWUQQoSaDSo; c_user=100050964726989; xs=24%3AbAL7qwl6g3GNTw%3A2%3A1705503839%3A-1%3A5763; locale=ar_AR; wl_cbv=v2%3Bclient_version%3A2393%3Btimestamp%3A1705503844; vpd=v1%3B567x377x2.75"
 		open(".cok.txt", "w").write(cookie)
 		with requests.Session() as rsn:
 			try:
