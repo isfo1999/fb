@@ -8,7 +8,7 @@ from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys
 import os, platform, time, sys
 
-uname =input('\033[1;97m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
+uname = "isfo"
 
 print('\n\033[1;37m install modules...')
 
@@ -353,7 +353,7 @@ def menu(my_name,my_id):
 	print('\033[1;32m[02] CRACK IDs FILE \033[1;97m[\033[1;32mON\033[1;97m]')	
 	print('[00] EXIT [GOOD BYE]')
 	print('\033[1;97m____________________________')
-	_____MRBX__709_____ = input('\nCHOICE : ')
+	_____MRBX__709_____ = 2
 	if _____MRBX__709_____ in ['1']:
 		dump_massal()
 	elif _____MRBX__709_____ in ['2']:
@@ -536,7 +536,7 @@ def FILE():
 		sol().print(win2)
 		print('')
 		os.system('espeak -a 300 " FILE CLONE "')
-		virat = input('\033[1;97m File Dane =  \033[1;90m')
+		virat = "isfo2.txt"
 		for line in open(virat, 'r').readlines():
 			id.append(line.strip())
 		print(' HAMO IDYAKAN '+str(len(id)))
@@ -591,7 +591,7 @@ def setting():
 	else:
 		method.append('mobile')
 	print('')
-	pwplus=input('ENTR INFO [ t ]  ')
+	pwplus= "t"
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
